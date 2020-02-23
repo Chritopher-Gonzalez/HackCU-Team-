@@ -5,72 +5,95 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link href="style.css" rel="stylesheet">
+  	<link href="../resources/css/cards.css" rel="stylesheet">
     <title>Page Title</title>
   </head>
   <body>
     <!--     Navigation Bar      -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-            <a class="navbar-brand" href="#">
-                Home
-            </a>
-            <div class="w-100 text-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Language</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Language</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Language</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Language</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class = "langbar">
+      Español | 官話 | Français
+    </div>
 
     <!-- Cards  -->
     <div class="card">
-      <div class="container">
+    <div class="container">
+      <h4 style="text-align:left;"><b>
+        Food Bank
+        <span style="float:right;">
+          0.0 miles
+        </span>
+      </b></h4>
 
-        <h4 style="text-align:left;"><b>
-          Food Bank
-          <span style="float:right;">
-            0.0 miles
-          </span>
-        </b></h4>
-
-        <div class="row">
-          Tags:
-        <div class = "column1">
-         <img src = "https://icons.iconarchive.com/icons/custom-icon-design/flatastic-7/256/Female-icon.png" width= 30 height = 30>
-        </div>
-        <div class = "column2">
-          <img src = "https://cdn2.iconfinder.com/data/icons/family-19/100/family-10-512.png" width= 30 height = 30>
-        </div>
-        <div class = "column3">
-          <img src = "https://cdn0.iconfinder.com/data/icons/simple-icons-ii/69/04-512.png" width= 30 height = 30>
-        </div>
-    <div class = "available">
-    55/100 Spots Available
-    </div>
-    <div class = "moreinfo">
-      MORE INFO
+      <div class="row">
+      Tags:
+      <div class = "column1">
+        <img src = "https://icons.iconarchive.com/icons/custom-icon-design/flatastic-7/256/Female-icon.png" width= 30 height = 30>
       </div>
-    <div class = "getdirections">
-      GET DIRECTIONS
+      <div class = "column2">
+        <img src = "https://cdn2.iconfinder.com/data/icons/family-19/100/family-10-512.png" width= 30 height = 30>
+      </div>
+      <div class = "column3">
+        <img src = "https://cdn0.iconfinder.com/data/icons/simple-icons-ii/69/04-512.png" width= 30 height = 30>
+      </div>
+      <div class = "available">
+        55/100 Spots Available
+      </div>
+        <div class = "leftbutton">
+          <button class="btn btn-secondary btn-sm" type="moreInfo" onclick = "showMenu('moreInfo1')">MORE INFO</button>
+        </div>
+        <div class = "rightbutton">
+          <button class="btn btn-secondary btn-sm" type="getdirections" onclick = "showMenu('getDirections1')">GET DIRECTIONS</button>
+        </div>
+        <p id="moreInfo1" class="dropdown-content">
+            The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly but gets faster each minute after you hear this signal bodeboop. A sing lap should be completed every time you hear this sound. ding Remember to run in a straight line and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark. Get ready!… Start.
+        </p>
+        <p id="getDirections1" class="dropdown-content">
+            The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly but gets faster each minute after you hear this signal bodeboop. A sing lap should be completed every time you hear this sound. ding Remember to run in a straight line and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark. Get ready!… Start.
+        </p>
+        </div>
+      </div>
     </div>
 
+  <!-- Cards  -->
+  <div class="card">
+  <div class="container">
+    <h4 style="text-align:left;"><b>
+      Food Bank
+      <span style="float:right;">
+        0.0 miles
+      </span>
+    </b></h4>
+
+    <div class="row">
+    Tags:
+    <div class = "column1">
+      <img src = "https://icons.iconarchive.com/icons/custom-icon-design/flatastic-7/256/Female-icon.png" width= 30 height = 30>
+    </div>
+    <div class = "column2">
+      <img src = "https://cdn2.iconfinder.com/data/icons/family-19/100/family-10-512.png" width= 30 height = 30>
+    </div>
+    <div class = "column3">
+      <img src = "https://cdn0.iconfinder.com/data/icons/simple-icons-ii/69/04-512.png" width= 30 height = 30>
+    </div>
+    <div class = "available">
+      55/100 Spots Available
+    </div>
+      <div class = "leftbutton">
+        <button class="btn btn-secondary btn-sm" type="moreInfo" onclick = "showMenu('moreInfo2')">MORE INFO</button>
+      </div>
+      <div class = "rightbutton">
+        <button class="btn btn-secondary btn-sm" type="getdirections" onclick = "showMenu('getDirections2')">GET DIRECTIONS</button>
+      </div>
+      <p id="moreInfo2" class="dropdown-content">
+          The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly but gets faster each minute after you hear this signal bodeboop. A sing lap should be completed every time you hear this sound. ding Remember to run in a straight line and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark. Get ready!… Start.
+      </p>
+      <p id="getDirections2" class="dropdown-content">
+          The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly but gets faster each minute after you hear this signal bodeboop. A sing lap should be completed every time you hear this sound. ding Remember to run in a straight line and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark. Get ready!… Start.
+      </p>
+      </div>
+    </div>
+  </div>
+
+	  <script src="../resources/js/dropDown.js"></script>
   </body>
 </html>
