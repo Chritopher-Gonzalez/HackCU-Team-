@@ -86,8 +86,11 @@ body {
 
 .show {
   display: block;
+<<<<<<< HEAD
 }
 
 .hide {
   display: none;
+=======
+>>>>>>> 66691c10424057a573df7817a030dfb9e4584e45
 }
