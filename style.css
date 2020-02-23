@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+  }
+   
+  body {
+    min-height: 100vh;
+    background:  #92BBE7;
+    display: flex;
+    flex-direction: column;
+  }
+
+.langbar {
+background-color: black;
+text-align: right;
+color: white;
+padding: 10px;
+margin: 0px;
+border: 0px;
+font-family: "Josefin Sans";
+}
+
+.content {
+display: flex;
+}
+
+.content .food {
+  flex: 1;
+  font-size: 24pt;
+  text-align: center;
+  padding: 200px 0px;
+  font-family: "Rubik";
+}
+.content .food .blurb {
+  padding: 10px 100px;
+  font-size: 20px;
+    font-family: "Josefin Sans";
+}
+
+.content .food .bowl {
+
+  margin: 10px 100px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 25px;
+
+}
+
+.content .shelter {
+    flex: 1;
+  font-size: 24pt;
+  text-align: center;
+  padding: 200px 0px;
+  font-family: "Rubik";
+}
+
+.content .shelter .blurb {
+  padding: 10px 100px;
+  font-size: 20px;
+  font-family: "Josefin Sans";
+}
+
+.content .shelter .house {
+
+  margin: 10px 100px;
+ padding: 10px;
+  border-style: solid;
+  border-radius: 25px;
+
+}
+
+.content .shelter .house:hover {
+  background: #CBE1EF;
+}
+
+.content .food .bowl:hover {
+  background: #CBE1EF;
+}
